@@ -4,9 +4,9 @@ a = int(input("Ingrese un numero para a:"))
 
 b = int(input("Ingrese un numero para b:"))
 
-Aux = a
+inter = a
 a = b
-b = Aux
+b = inter
 
 print("Después del intercambio:")
 print("a = ", a)
