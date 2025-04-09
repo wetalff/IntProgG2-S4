@@ -1,13 +1,7 @@
-#Presupuesto
-Monto_Presupuestal = float(input("Ingrese la cantidad del monto presupuestal destinada al hospital: "))
-Urgencias = Monto_Presupuestal * (37 / 100)
-Pediatria = Monto_Presupuestal * (42 / 100)
-Traumatologia = Monto_Presupuestal * (21 / 100)
+#Recorrido
+Lunes = float(input("Dime en minutos cuanto te tardaste en recorrer la ruta el lunes: "))
+Miercoles = float(input("Dime en minutos cuanto te tardaste en recorrer la ruta el miercoles: "))
+Viernes = float(input("Dime en minutos cuanto te tardaste en recorrer la ruta el viernes: "))
+promedio_recorrido = (Lunes + Miercoles + Viernes) / 3
+print(f"En una semana te tardaste en recorrer esa ruta un promedio de: {promedio_recorrido:.2f} minutos")
 
-print(f"El presupuesto asignado para el area de urgencias es de {Urgencias:.2f}")
-print(f"El presupuesto asignado para el area de pediatria es de {Pediatria:.2f}")
-print(f"El presupuesto asignado para el area de traumatologia es de {Traumatologia:.2f}")
-
-
-    
- 

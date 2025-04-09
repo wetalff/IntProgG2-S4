@@ -1,5 +1,10 @@
-#pulsaciones
-edad = int(input("Ingrese su edad: "))
-N_pulsaciones = (220 - edad) / 10
-print("El numero de pulsaciones que debes de tener segun la edad indicada y 10 segundos de ejercicio es de: ",N_pulsaciones)
+#Masa
+Presion = float(input("Ingrese la presion del objeto: "))
+volumen = float(input("Ingrese el volumen del objeto: "))
+temperatura = float(input("ingrese la temperatura del objeto: "))
+
+masa = (Presion * volumen) / (0.37 * (temperatura + 460))
+print(f"La masa del objeto es de: {masa:.2f}")
+
+
 
